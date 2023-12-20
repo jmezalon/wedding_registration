@@ -18,6 +18,8 @@ function getDatabaseUri() {
   );
 }
 
+const BCRYPT_WORK_FACTOR = 13;
+
 console.log("Wedding Registration Config:".yellow);
 console.log("PORT:".blue, PORT);
 console.log("Database_URI:".blue, getDatabaseUri());
@@ -25,5 +27,6 @@ console.log("--------");
 
 module.exports = {
   PORT,
+  BCRYPT_WORK_FACTOR,
   getDatabaseUri,
 };
