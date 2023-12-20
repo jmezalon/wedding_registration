@@ -18,7 +18,7 @@ function getDatabaseUri() {
   );
 }
 
-console.log("Wedding Registration Config:".red);
+console.log("Wedding Registration Config:".yellow);
 console.log("PORT:".blue, PORT);
 console.log("Database_URI:".blue, getDatabaseUri());
 console.log("--------");
