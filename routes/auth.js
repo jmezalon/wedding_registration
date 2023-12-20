@@ -4,7 +4,7 @@ const User = require("../models/user");
 
 router.post("/login", async (req, res, next) => {
   try {
-    // take user email and password and attempt to authenicate them
+    //
   } catch (error) {
     next(error);
   }
